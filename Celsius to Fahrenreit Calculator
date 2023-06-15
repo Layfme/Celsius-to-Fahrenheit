@@ -1,0 +1,19 @@
+import java.util.;
+
+class CelsiusToFahrenheit {
+
+public static void main(String[] args) {
+
+float temperatue;
+Scanner in = new Scanner(System.in);
+
+System.out.println("Input the temperatue in Celsius");
+
+temperatue = in.nextInt();
+
+temperatue = ((temperatue9)/5)+32;
+
+System.out.println("Output the temperatue in Fahrenheit = " +temperatue);
+
+}
+}
